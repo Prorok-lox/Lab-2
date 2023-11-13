@@ -20,8 +20,7 @@ def search_for_author():
     name = input('what are you searching for: ')
     for i in list:
         if name in i.split(';')[3] or name in i.split(';')[4]:
-            print(i.split[1])
-
+            print(i.split(';')[1])
 
 def links_to_the_20_books():
     with open('result.txt','w', encoding='windows-1251') as link :
